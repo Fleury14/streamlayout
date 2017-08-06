@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Noodle';
+    src: url(../fonts/bignoodletoo.ttf);
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(../fonts/Futura.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.viewscreen {
+    height: 720px;
+    width: 1280px;
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#a56526, #333, #000); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#a56526, #333, #000); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#a56526, #333, #000); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#a56526 50%, #333, #000); /* Standard syntax */
+}
+
+
+.header {
+    font-family: 'Noodle', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
+.mid-row {
+    height: 572px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.camera {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #eee;
+    border-radius: 5%;
+    background-color: #fff;
+}
+
+.stream {
+    height: 570px;
+    width: 855px;
+    border: 1px solid #eee;
+    background-color: #000;
+
+}
+
+.team-fs {
+    height: 400px;
+    width: 200px;
+    font-family: 'Futura', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.username {
+    color: yellow;
+    font-family: 'Noodle', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
